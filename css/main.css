@@ -19,7 +19,7 @@ body{
    }
 
    .back {
-       background: url('img/Star-Trek-logo.png') repeat;
+       background: url('../img/Star-Trek-black.jpg') repeat;
        width: 100%;
        height: 100%;
        display: inline-block;
