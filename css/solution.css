@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .game-container {
-    background: url('img/retina_wood_@2X.png') repeat;
+    background: url('../img/retina_wood_@2X.png') repeat;
     padding: 1rem;
     overflow: hidden;
 }
@@ -11,7 +11,7 @@
     margin-top: 1rem;
 }
 .back {
-    background: url('img/skulls.png') repeat;
+    background: url('../img/skulls.png') repeat;
     width: 100%;
     height: 100%;
     display: inline-block;
@@ -38,3 +38,17 @@
 hr {
     clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

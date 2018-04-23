@@ -1,62 +1,54 @@
-# [Start Bootstrap - Bare](https://startbootstrap.com/template-overviews/bare/)
+# wats1020-card-matching-game
+A repository to help kickstart the card matching game final project.
 
-[Bare](http://startbootstrap.com/template-overviews/bare/) is a bare HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features predefined file paths for Bootstrap and jQuery, so you can quickly create Bootstrap websites.
+The final project in this course is a project to build a card matching game. You might know this kind of game as "Memory". We will use slightly customized rules to build a solitaire version of the game. The base requirements define a basically playable in-browser game that can be built with Javascript, HTML and CSS
 
-## Preview
+##Base Requirements
+* Cards are shuffled.
+* 12 cards are arranged in a grid face down.
+* Player begins a play turn:
+  * Player clicks a card to reveal the face.
+  * Player clicks a second card to reveal the second card's face.
+  * If the two cards match:
+    * The player earns 5 points.
+    * The cards disappear from the grid.
+  * If the cards do not match:
+    * The player loses 2 points.
+    * The cards return to their original face-down position.
+* Player repeats play turns until all the cards are removed from the grid.
+* When no cards are left, a Game Over screen is shown displaying the following information:
+  * Total score for the player
+  * Star ranking based on this breakdown:
+    * If score is zero (0) or less, no stars
+    * If score is between 0 and 5, one star
+    * If score is between 6 and 20, two stars
+    * If score is between 21 and 30, three stars
+  * Play again button; if clicked, game resets and starts again.
+  * Note: There is no need to save scores over time in the base requirements
 
-[![Bare Preview](https://startbootstrap.com/assets/img/templates/bare.jpg)](https://blackrockdigital.github.io/startbootstrap-bare/)
+## Additional **base requirements**
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-bare/)**
+* Must be playable in any modern web browser
+* Should be responsive to major screen sizes (phone, tablet, and desktop)
+* Use some animation to enhance interactivity and fun
+* Present this in the context of a single-page mini-site hosted on Github Pages
 
-## Status
+## Stretch Requirements
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-bare/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-bare.svg)](https://www.npmjs.com/package/startbootstrap-bare)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-bare.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-bare)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-bare/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-bare)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-bare/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-bare?type=dev)
+* Add your own graphics and enhance the visual presentation
+* Players enter their name when they start the first game.
+  * Store this in localStorage for retrieval throughout the gameplay
+  * Use this value to enhance messaging and information display during the game
+* Players can share their score and a link to your game when they complete the game.
+  * Add a button to "Share" the final results of the game alongside the "Play Again" button
+  * Enable sharing to a social network (or multiple) of your choosing.
+* Enhanced animations
+  * There are many opportunities for animations throughout this game. Make them awesome.
+* Deploy at a custom domain or subdomain. (This is especially good if allowing people to share your link.)
+* Add Google Analytics so you can see how popular your card game is.
 
-## Download and Installation
+## Credits and Attributions
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/bare/)
-* Install via npm: `npm i startbootstrap-bare`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-bare.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-bare)
+This project uses the images from the ["Notable Women in Computer Science Playing Card Deck"](http://www.cs.duke.edu/csed/wikipedia/).
 
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-bare/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/bare/).
-
-## Custom Builds
-
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-bare/blob/gh-pages/LICENSE) license.
+This project uses background images from [Subtle Patterns](http://subtlepatterns.com).
