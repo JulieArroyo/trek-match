@@ -1,20 +1,31 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
-  background-color:#000!important;
-  color:#fff!important;
-
-}
+    body{
+      background-image: url('../img/Sky1.png') ;
+      background-repeat: repeat;
+      color:#fff!important;
+      font-family: 'Rambla', sans-serif;
+    }
+    h1{
+      font-size:45px;
+    }
+    p{
+      font-size:15px;
+    }
+    .btn{
+      background-color:#f2e01a;
+      color: black;
+    }
    .game-container {
-       background-color:#000;
+      margin-top:65px;
        padding: .5rem;
        overflow: hidden;
        color:#fff;
+       text-align:center;
    }
    .info-display {
        margin-top: 20px;
-       background-color:#000;
        color:#fff;
    }
 
@@ -44,7 +55,10 @@ body{
      	margin: .5rem;
    }
    .modal-content{
+
      background-color:#000;
+     box-shadow: 0 0px 30px rgb(242, 224, 26);
+     text-align:center;
    }
    .hidden {
        display: none;
